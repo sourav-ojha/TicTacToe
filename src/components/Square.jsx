@@ -9,7 +9,8 @@ const style = {
 	outline: "none",
 }
 const Square = ({ value, onClick }) => {
-  return <button style={style} onClick={onClick}>{value}</button>;
+	// console.log("square", value)
+  return <button style={style} onClick={onClick}>{value.display}</button>;
 };
 
 export default Square;

@@ -7,7 +7,7 @@ const Icons = ({ choice }) => {
     case "cross":
       return <FaTimes className="cross" />;
     case "circle":
-      return <FaRegCircle />;
+      return <FaRegCircle className="circle" />;
     default:
       return <FaPen />;
   }

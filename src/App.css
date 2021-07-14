@@ -1,7 +1,40 @@
 .App {
-  text-align: center;
+  display: grid;
+  place-items: center;
   width: 100vw;
   height: 100vh;
-
   background-color: #6600ff;
+}
+
+.App > div{
+  display: grid;
+  place-items: center;
+}
+h1{
+  color: #dfdfdf;
+}
+
+.output{
+  display: grid;
+  place-items: center;
+  width: 250px;
+  height: 40px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #cf6a17;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.reset{
+  width: 95%;
+  height: 45px;
+  background-color: #9a99e1;
+  border: none;
+  border-radius: 5px;
+  color: rgb(43, 30, 221);
+  font-weight: 600;
+  font-size: 1.5rem;
+  box-shadow: 0 0 5px 2px #dfdfdf;
 }
